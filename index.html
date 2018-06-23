@@ -1,0 +1,64 @@
+
+<html>
+    <head>
+        <title>Forca</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script language="JavaScript" type="text/javascript" src="script.js"></script>
+    </head>
+    <body onload="começou()">
+        <img src="forca-logo.png" style="width: 10%;">
+        <div class="jogo">
+            <button onclick="palavra_nova()" class="nova">Palavra Nova</button>
+            <div id="espaço">
+                <img src="0.jpg" class="forca">
+            </div>
+            <div class="palavra">
+                <span class="word" id="word1"></span>
+                <span class="word" id="word2"></span>
+                <span class="word" id="word3"></span>
+                <span class="word" id="word4"></span>
+                <span class="word" id="word5"></span>
+                <span class="word" id="word6"></span>
+                <span class="word" id="word7"></span>
+                <span class="word" id="word8"></span>
+                <span class="word" id="word9"></span>
+            </div>
+            <div class="teclado">
+                <div class="linhas top">
+                    <button  onclick="jogar('a')" class="tecla">A</button>
+                    <button  onclick="jogar('b')" class="tecla">B</button>
+                    <button  onclick="jogar('c')" class="tecla">C</button>
+                    <button  onclick="jogar('d')" class="tecla">D</button>
+                    <button  onclick="jogar('e')" class="tecla">E</button>
+                    <button  onclick="jogar('f')" class="tecla">F</button>
+                    <button  onclick="jogar('g')" class="tecla">G</button>
+                    <button  onclick="jogar('h')" class="tecla">H</button>
+                </div>
+                <div class="linhas mid">
+                    <button  onclick="jogar('i')" class="tecla">I</button>
+                    <button  onclick="jogar('j')" class="tecla">J</button>
+                    <button  onclick="jogar('k')" class="tecla">K</button>
+                    <button  onclick="jogar('l')" class="tecla">L</button>
+                    <button  onclick="jogar('m')" class="tecla">M</button>
+                    <button  onclick="jogar('n')" class="tecla">N</button>
+                    <button  onclick="jogar('o')" class="tecla">O</button>
+                    <button  onclick="jogar('p')" class="tecla">P</button>
+                    <button  onclick="jogar('q')" class="tecla">Q</button>
+                    <button  onclick="jogar('r')" class="tecla">R</button>
+                </div>
+                <div class="linhas bot">
+                    <button  onclick="jogar('s')" class="tecla">S</button>
+                    <button  onclick="jogar('t')" class="tecla">T</button>
+                    <button  onclick="jogar('u')" class="tecla">U</button>
+                    <button  onclick="jogar('v')" class="tecla">V</button>
+                    <button  onclick="jogar('w')" class="tecla">W</button>
+                    <button  onclick="jogar('x')" class="tecla">X</button>
+                    <button  onclick="jogar('y')" class="tecla">Y</button>
+                    <button  onclick="jogar('z')" class="tecla">Z</button>
+                </div>
+            </div>
+        </div>
+    </body>
+ 
+</html>
